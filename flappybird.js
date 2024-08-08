@@ -1,4 +1,3 @@
-
 //board
 let board;
 let boardWidth = 360;
@@ -142,10 +141,10 @@ function placePipes() {
 }
 
 function moveBird(e) {
-    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") { 
-           //jump  
+    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
+        //jump
         velocityY = -5;
-        
+
         //reset game
         if (gameOver) {
             bird.y = birdY;
